@@ -81,8 +81,8 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 .
 ├── main.py
 ├── extractor.py          # Extracts audio & transcript
-├── chunker.py            # Splits transcript into chunks
-├── embedder.py           # Embeds chunks using HuggingFace
+├── chunking.py            # Splits transcript into chunks
+├── embedding.py           # Embeds chunks using HuggingFace
 ├── qa.py                 # RetrievalQA using LLaMA2 via Ollama
 ├── requirements.txt
 ├── README.md
