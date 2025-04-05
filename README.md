@@ -73,8 +73,6 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 
 ## 📁 Directory Structure
 
-```bash
-.
 ├── main.py
 ├── extractor.py          # Extracts audio & transcript
 ├── chunker.py            # Splits transcript into chunks
