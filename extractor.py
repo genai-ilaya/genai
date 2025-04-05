@@ -19,7 +19,7 @@ def extract_transcript(video_path, audio_path, transcript_path):
     print("Transcribing audio...")
     print("**********************")
 
-    model = whisper.load_model("base")
+    model = whisper.load_model("base")  # small or "medium", "large", etc.
     result = model.transcribe(audio_path)
     os.makedirs(os.path.dirname(transcript_path), exist_ok=True)
     with open(transcript_path, "w", encoding="utf-8") as f:
