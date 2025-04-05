@@ -6,12 +6,12 @@ import os
 import time
 import sys
 
-video_path = r"D:\Download\UrimeterMedical.mp4"
-audio_path = r"D:\video_rag\data\UrimeterMedical_audio.mp3"
-transcript_path = r"D:\video_rag\data\transcripts\UrimeterMedical.txt"
-chunk_dir = r"D:\video_rag\data\chunks"
-embedding_json_path = r"D:\video_rag\data\embeddings\embeddings.json"
-index_path = r"D:\video_rag\data\index"
+video_path = r"D:\Download\UrimeterMedical.mp4"                                          # use your path
+audio_path = r"D:\video_rag\data\UrimeterMedical_audio.mp3"                              # use your path
+transcript_path = r"D:\video_rag\data\transcripts\UrimeterMedical.txt"                   # use your path
+chunk_dir = r"D:\video_rag\data\chunks"                                                  # use your path
+embedding_json_path = r"D:\video_rag\data\embeddings\embeddings.json"                    # use your path
+index_path = r"D:\video_rag\data\index"                                                  # use your path
 
 # Run preprocessing only if index doesn't exist
 if not os.path.exists(index_path):
