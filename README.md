@@ -16,7 +16,7 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 
 ## 📦 Features
 
-- 🔊 Extract audio from video (MP4)
+- 🔊 Extract audio from video (MP4) using ffmpeg
 - ✍️ Transcribe audio using OpenAI Whisper
 - ✂️ Chunk transcript text
 - 🧠 Generate embeddings using HuggingFace models
