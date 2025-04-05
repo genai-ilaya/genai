@@ -1,9 +1,18 @@
 # 🎯 End-to-End RAG Pipeline for Video Content
 
 This project demonstrates an end-to-end **Retrieval-Augmented Generation (RAG)** pipeline using video input.
-It extracts audio, transcribes it using Whisper, splits the text into chunks, generates embeddings, stores them in FAISS, and finally answers questions using LLaMA2 (or DeepSeek) via Ollama.
+It extracts audio, transcribes it using Whisper, splits the text into chunks, generates embeddings, stores them in FAISS, and finally answers questions using LLaMA2 via Ollama.
 
 ---
+
+## 💻 Minimum System Requirements
+
+- CPU	4 cores (e.g., Intel i5 or AMD Ryzen 3)
+- RAM	8 GB
+- Disk Space	At least 10 GB free (for models, embeddings, audio, etc.)
+- GPU (Optional)	A GPU like NVIDIA GTX 1050+ (for faster Whisper transcription, but not required)
+- OS	Windows 10+, macOS, or Linux
+- Python	≥ 3.10+
 
 ## 📦 Features
 
