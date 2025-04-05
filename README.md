@@ -83,3 +83,8 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 ├── requirements.txt
 ├── README.md
 
+## 🔮 Future Enhancements
+- Streamlit interface
+- Multi-language support
+- Add support for PDFs and etc
+
