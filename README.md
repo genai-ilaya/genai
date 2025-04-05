@@ -59,19 +59,19 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 
 ## 🚀 Run the Pipeline
 
-1. Prepare a video file **(make sure your video has audio)**
-Place your **.mp4** file in the root directory or adjust the path in main.py.
+  1. Prepare a video file **(make sure your video has audio)**
+  Place your **.mp4** file in the root directory or adjust the path in main.py.
 
-2. Run the pipeline
-python main.py
+  2. Run the pipeline
+  python main.py
 
 ## ❓ Sample Question
-Once the FAISS index is created, you'll be prompted to ask something like:
+  Once the FAISS index is created, you'll be prompted to ask something like:
 
-Q What is shown in the video ?
-🍳 Cooking your answer...
+  Q What is shown in the video ?
+ 🍳 Cooking your answer...
 
-You'll receive an answer generated using retrieved content and the LLM.
+  You'll receive an answer generated using retrieved content and the LLM.
 
 ---
 
