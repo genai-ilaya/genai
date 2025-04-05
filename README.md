@@ -44,7 +44,7 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 
 ## 🔧 Installation Steps
   0. Create a new folder
-  1. Clone repo git clone https://github.com/genai-ilaya/genai.git && cd genai
+  1. Clone repo --> git clone https://github.com/genai-ilaya/genai.git && cd genai
   2. Create venv --> python -m venv .venv && source .venv/bin/activate
   3. Install dependencies --> pip install -r requirements.txt
   4. Install FFmpeg --> https://youtu.be/K7znsMo_48I?si=4UMcKVZdIzqT_xrE
