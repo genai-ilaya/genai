@@ -69,7 +69,7 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 
 - You'll receive an answer generated using retrieved content and the LLM.
 
-- ![Project Preview](preview.png)
+- ![Project Preview](demo.png)
 
 ---
 
