@@ -37,8 +37,8 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 - Python 3.10+
 - Git
 - Virtual environment (recommended)
-- [Ollama](https://ollama.com/) installed and running --> 
-- [FFmpeg](https://ffmpeg.org/download.html) installed and added to system PATH --> https://youtu.be/K7znsMo_48I?si=4UMcKVZdIzqT_xrE
+- [Ollama](https://ollama.com/) installed and running
+- [FFmpeg](https://ffmpeg.org/download.html) installed and added to system PATH
 ---
 
 
@@ -51,9 +51,8 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
      source .venv/bin/activate
   3. Install dependencies
      pip install -r requirements.txt
-  4. Install FFmpeg 
-     Download from [ffmpeg.org](https://ffmpeg.org/download.html), extract & add `bin` to system PATH | --> https://youtu.be/K7znsMo_48I?si=4UMcKVZdIzqT_xrE
-  5. Verify FFmpeg --> ffmpeg -version
+  4. Install FFmpeg --> https://youtu.be/K7znsMo_48I?si=4UMcKVZdIzqT_xrE
+  5. Verify FFmpeg  --> ffmpeg -version
   6. Install Ollama --> https://youtu.be/UtSSMs6ObqY?si=_JtAtxK6rWUX6u5J
 
 
