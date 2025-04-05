@@ -66,10 +66,11 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
   python main.py
 
 ## ❓ Sample Question
+
   Once the FAISS index is created, you'll be prompted to ask something like:
 
   Q What is shown in the video ?
- 🍳 Cooking your answer...
+  🍳 Cooking your answer...
 
   You'll receive an answer generated using retrieved content and the LLM.
 
