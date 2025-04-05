@@ -26,7 +26,7 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 ## 🧠 Models Used
 
 - **Whisper** : Audio-to-text transcription
-- **MiniLM**  : Lightweight text embeddings
+- **MiniLM**  : Lightweight text embeddings - all-MiniLM-L6-v2
 - **FAISS**   : Vector database
 - **LLaMA2**  : Large Language Model (via Ollama)
 
