@@ -21,7 +21,7 @@ It extracts audio, transcribes it using Whisper, splits the text into chunks, ge
 - ✂️ Chunk transcript text
 - 🧠 Generate embeddings using HuggingFace models
 - 🗃️ Store & retrieve vectors using FAISS
-- 💬 Ask questions using LLaMA2 or DeepSeek-R1 with Ollama
+- 💬 Ask questions using LLaMA2 with Ollama
 
 ## 🧠 Models Used
 
